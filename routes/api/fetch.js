@@ -1,6 +1,6 @@
 var router = require("express").Router();
-var db = require("../models");
-var scrape = require("../scripts/scrape");
+var db = require("../../models");
+var scrape = require("../../scripts/scrape");
 
 router.get("/", function(req, res) {
     // scrape the NYT

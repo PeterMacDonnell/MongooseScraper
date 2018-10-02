@@ -1,7 +1,7 @@
 var router = require("express").Router();
 var fetchRoutes = require("./fetch");
-var noteRoutes = require("./notes");
-var headlineRoutes = require("./headlines");
+var noteRoutes = require("./note");
+var headlineRoutes = require("./headline");
 var clearRoutes = require("./clear");
 
 router.use("/fetch", fetchRoutes);

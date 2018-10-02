@@ -1,6 +1,6 @@
 var router = require("express").Router();
-var headlineController = require("../../controllers/headline");
-var db = require("../models");
+// var headlineController = require("../../controllers/headline");
+var db = require("../../models");
 
 router.get("/", function(req, res) {
     db.Headline

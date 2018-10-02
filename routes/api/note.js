@@ -1,5 +1,5 @@
 var router = require("express").Router();
-var db = require("../models");
+var db = require("../../models");
 
 router.get("/:id", function(req, res) {
     db.Note.find({ _headlineId: req.params.id }).then(function(dbNote) {
